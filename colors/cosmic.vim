@@ -7,7 +7,7 @@
 "
 "----------------------------------------------------------------
 "  Theme   : Cosmic Color Scheme
-"  Version : 1.3.0
+"  Version : 1.3.1
 "  License : MIT
 "  Author  : Gerard Bajona
 "  URL     : https://github.com/gerardbm/vim-cosmic
@@ -459,6 +459,7 @@ execute 'hi CocFloatThumb '    . s:envir . 'bg=' . s:base3
 execute 'hi CocMenuSbar '      . s:envir . 'bg=' . s:base2
 execute 'hi CocMenuThumb '     . s:envir . 'bg=' . s:base3
 execute 'hi CocSnippetVisual ' . s:envir . 'fg=' . s:base1
+execute 'hi CocSearch '        . s:envir . 'fg=' . s:aco50
 
 " }}}
 " ALE: {{{
